@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/font/KBO\ Dia\ Gothic_light.otf');
+    src: url('/font/KBO\ Dia\ Gothic_light.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_light.woff') format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_medium';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/font/KBO\ Dia\ Gothic_medium.otf');
+    src: url('/font/KBO\ Dia\ Gothic_medium.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/font/KBO\ Dia\ Gothic_bold.otf');
+    src: url('/font/KBO\ Dia\ Gothic_bold.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_bold.woff') format('woff');
+}

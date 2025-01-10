@@ -1,0 +1,195 @@
+
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    word-break: keep-all!important;
+
+}
+
+body {
+	line-height: 1.5;
+    font-family: 'GmarketSans';
+    font-size: 16px!important;
+    min-width: 320px;
+    color: #232323!important;
+}
+
+ol, ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+i{
+    font-style: normal;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+select {
+    -webkit-appearance:none; /* 크롬 화살표 없애기 */
+    -moz-appearance:none; /* 파이어폭스 화살표 없애기 */
+    appearance:none /* 화살표 없애기 */
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    
+}
+h2,b{
+    font-weight: 800!important;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure{
+    margin: 0!important;
+}
+
+.hidden{
+    display: none;
+}
+
+.t_center{
+    text-align: center;
+}
+
+
+.light{
+    font-weight: 300;
+}
+.nomal{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+.sub_fo{
+    font-family: 'GangwonEduPower';
+}
+
+
+
+.ani-item, .ani-item .ani-inside {
+    opacity: 0;
+    transition: 1s ease-in-out;
+  }
+  
+  .ani-vertical {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+  
+  .ani-hor {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+
+  .ani-lor {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  
+  .s-line[class*=ani-] {
+    transform: scale(0, 0);
+  }
+  
+  .s-line.vertical[class*=ani-] {
+    transform-origin: center top;
+  }
+  
+  .s-line.horizontal[class*=ani-] {
+    transform-origin: left center;
+  }
+  
+  .ani-item.done, .ani-item.done .ani-inside {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .ani-item.d100, .ani-item .d100 {
+    transition-delay: 100ms;
+  }
+  
+  .ani-item.d200, .ani-item .d200 {
+    transition-delay: 200ms;
+  }
+  
+  .ani-item.d300, .ani-item .d300 {
+    transition-delay: 300ms;
+  }
+  
+  .ani-item.d400, .ani-item .d400 {
+    transition-delay: 400ms;
+  }
+  
+  .ani-item.d500, .ani-item .d500 {
+    transition-delay: 500ms;
+  }
+  
+  .ani-item.d600, .ani-item .d600 {
+    transition-delay: 600ms;
+  }
+  
+  .ani-item.d700, .ani-item .d700 {
+    transition-delay: 700ms;
+  }
+  
+  .ani-item.d800, .ani-item .d800 {
+    transition-delay: 800ms;
+  }
+  
+  .ani-item.d900, .ani-item .d900 {
+    transition-delay: 900ms;
+  }
+  
+  .ani-item.d1000, .ani-item .d1000 {
+    transition-delay: 1000ms;
+  }
+
+  .ani-item.d1200, .ani-item .d1200 {
+    transition-delay: 1200ms;
+  }
+  
+  
+  .ani-item.d1500, .ani-item .d1500 {
+    transition-delay: 1500ms;
+  }
+
+  .ani-item.d1800, .ani-item .d1800 {
+    transition-delay: 1800ms;
+  }
+  
+  
+  .ani-item.d2000, .ani-item .d2000 {
+    transition-delay: 2000ms;
+  }
