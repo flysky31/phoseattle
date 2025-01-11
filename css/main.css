@@ -1576,6 +1576,8 @@
   }
   #main_visual {
     margin-top: 75px;
+    height:100%;
+    padding:95px 0;
   }
   #deps04 {
     padding: 100px 0;
