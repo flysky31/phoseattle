@@ -1,34 +1,17 @@
+@charset "utf-8";
 
 @font-face {
-    font-family: 'KBO-Dia-Gothic_light';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/font/KBO\ Dia\ Gothic_light.otf');
-    src: url('/font/KBO\ Dia\ Gothic_light.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_light.woff') format('woff');
+  font-family: "GmarketSans";
+  font-weight: 300;
+  src: url(../fonts/GmarketSansLight.woff2) format(woff);
 }
-
-
-
 @font-face {
-    font-family: 'KBO-Dia-Gothic_medium';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/font/KBO\ Dia\ Gothic_medium.otf');
-    src: url('/font/KBO\ Dia\ Gothic_medium.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_medium.woff') format('woff');
+  font-family: "GmarketSans";
+  font-weight: 500;
+  src: url(../fonts/GmarketSansMedium.woff2) format(woff);
 }
-
-
 @font-face {
-    font-family: 'KBO-Dia-Gothic_bold';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/font/KBO\ Dia\ Gothic_bold.otf');
-    src: url('/font/KBO\ Dia\ Gothic_bold.otf?#iefix') format('embedded-opentype'), url('/font/KBO-Dia-Gothic_bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "GmarketSans";
+  font-weight: 800;
+  src: url(../fonts/GmarketSansBold.woff2) format(woff);
 }
