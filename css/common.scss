@@ -246,7 +246,7 @@ select{
                 padding: 0;
                 border: 0;
                 .hamburger-menu{
-                    width: 30px;
+                    width: 26px;
                     height: 22px;
                     position: relative;
                     display: block;
@@ -254,7 +254,7 @@ select{
                     span{
                         display: block;
                         position: absolute;
-                        height: 2px;
+                        height: .1444rem;
                         width: 100%;
                         background-color: #000;
                         transition: transform 0.3s ease;
@@ -264,7 +264,7 @@ select{
                         &:nth-child(2){
                             top: 50%;
                             transform: translateY(-50%);
-                            width: 70%;
+                            width: 80%;
                             right: 0;
                         }
                         &:nth-child(3){
