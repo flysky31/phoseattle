@@ -54,7 +54,7 @@
 #main_visual{
     background: url("../img/main_visual.jpg")no-repeat center/cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-top: 95px;
     .inner{
         @include flex_center;
@@ -63,7 +63,7 @@
     }
     .txt{
         color: #fff;
-        
+        margin:6% 0;
     }
     .top{
         margin: 0 0 3% 0;
