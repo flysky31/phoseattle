@@ -493,6 +493,9 @@ select {
   #footer .f_top > .inner li:first-child {
     margin: 15px 0;
   }
+  #footer .f_wrap .address ul li:after{
+    display:none;
+  }
 }
 @media (max-width: 540px) {
   #totop {
