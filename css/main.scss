@@ -1348,7 +1348,25 @@
 
 
 @include breakpoint_desktop_1360{
-   
+       .m_title{
+        font-size: 3.5rem;
+    }
+    .m_sub_title{
+        font-size: 2rem;
+    }
+
+    .m_lo{
+        font-size: 1.375rem;
+    }
+    .m_big{
+        font-size: 2.75rem;
+    }
+    .m_sm{
+        font-size: 1.2625rem;
+    }
+    .m_sl{
+        font-size: 1rem;
+    }
     #deps09 {
         .tab-button{
             width: 25%;
@@ -1382,25 +1400,7 @@
 
 
 @include breakpoint_desktop_1280{
-    .m_title{
-        font-size: 3.5rem;
-    }
-    .m_sub_title{
-        font-size: 2rem;
-    }
 
-    .m_lo{
-        font-size: 1.375rem;
-    }
-    .m_big{
-        font-size: 2.75rem;
-    }
-    .m_sm{
-        font-size: 1.2625rem;
-    }
-    .m_sl{
-        font-size: 1rem;
-    }
     #main_visual {
         .inner{
            justify-content: center;
