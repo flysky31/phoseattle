@@ -493,6 +493,9 @@ select {
   #footer .f_top > .inner li:first-child {
     margin: 15px 0;
   }
+   #footer .f_wrap .address ul li{
+      text-align: center;
+   }
   #footer .f_wrap .address ul li:after{
     display:none;
   }
