@@ -2313,6 +2313,9 @@
 
 
 @include breakpoint_mobile_480{
+      #main_visual{
+        margin-top: 60px;
+      }
     #deps08{
         background: url("../img/deps08_bg_icon01.png") no-repeat -92% 108%/75% auto, url("../img/deps08_bg_icon02.png") no-repeat 126% 36%/48% auto;
     }
