@@ -628,6 +628,7 @@ select{
             .address {
                 ul {
                     li{
+                        text-align: center;
                         &:after{
                             display:none;
                         }
